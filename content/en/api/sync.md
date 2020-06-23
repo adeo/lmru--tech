@@ -155,17 +155,17 @@ They allow the response to be filtered according to certain criteria.
 ## Response: Status Codes
 #### All methods
 * All REST APIs should use only standard status codes. 
-* Every service must potentially return a `500` error.
-* Every service with, at least, one required parameter must potentiallly return a `4xx` class of response with the explanation of error.
-* Every secured service must return `401` in case of access denied.
+* Every service can potentially return a `500` error.
+* Every service with, at least, one required parameter can potentiallly return a `4xx` class of response with the explanation of error.
+* Every secured service can return `401` in case of access denied.
 
 #### GET
 * If an information is not found then return `404`.
-* In case of all the collection returned in one call must return `200`.
+* In case of all the collection returned in one call should return `200`.
 * In case of partially returned collection should return `206`.
 
 {{% alert color="info" title="204 or 404" %}}
-There is a debate: which code I should return when the URL is correct but the data not found. We would recommend you to return a `404` when the data was <abbr data-toggle="tooltip" title="Example: /v1/solutions/12070000001">accessed by key</abbr>, and `204` when there is no information found after filtering or <abbr data-toggle="tooltip" title="Example: /v1/soluitons/search?deliveryType=HOME_DELIVERY">searching by parameters</abbr>.
+There is a debate: which code I should return when the URL is correct but the data is not found. We would recommend you to return a `404` when the data was <abbr data-toggle="tooltip" title="Example: /v1/solutions/12070000001">accessed by key</abbr>, and `204` when there is no information found after filtering or <abbr data-toggle="tooltip" title="Example: /v1/soluitons/search?deliveryType=HOME_DELIVERY">searching by parameters</abbr>.
 {{% /alert %}}
 
 #### POST
