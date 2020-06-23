@@ -154,24 +154,28 @@ They allow the response to be filtered according to certain criteria.
 
 ## Response: Status Codes
 #### All methods
-* Standard Codes must be used for all rest API.
-* Every service must potentially return a 500 error.
-* Every service with, at least, one required parameter must return a 4xx class of response with the explanation of error.
-* Every secured service MUST return a 401 status code
+* All REST APIs should use only standard status codes. 
+* Every service must potentially return a `500` error.
+* Every service with, at least, one required parameter must potentiallly return a `4xx` class of response with the explanation of error.
+* Every secured service must return `401` in case of access denied.
 
 #### GET
-* Every one resource service must return a 404 status code (in case of data not found).
-* Every collection service must return a 200 status code if return all the collection in one call.
-* Every collection service should return a 206 status code if return only a part of the the collection in one call. 
+* If an information is not found then return `404`.
+* In case of all the collection returned in one call must return `200`.
+* In case of partially returned collection should return `206`.
+
+{{% alert color="info" title="204 or 404" %}}
+There is a debate: which code I should return when the URL is correct but the data not found. We would recommend you to return a `404` when the data was <abbr data-toggle="tooltip" title="Example: /v1/solutions/12070000001">accessed by key</abbr>, and `204` when there is no information found after filtering or <abbr data-toggle="tooltip" title="Example: /v1/soluitons/search?deliveryType=HOME_DELIVERY">searching by parameters</abbr>.
+{{% /alert %}}
 
 #### POST
-* Every service used to create a resource must return a 201 status code. 
+* Return `201` after creation of resource.
 
 #### PUT & PATCH:
-* Every service used to update a resource must return a 200 status code. 
+* Return `200` after resource update.
 
 #### DELETE
-* Every service must return a 204 status code.
+* Return `204` after successfuly deleted information.
 
 ## HTTP response: Error Codes
 Along with the HTTP response status code, the sample error response payload should also be specified. This helps the consumer application parse error messages. The error response payload may include specific business error codes and descriptive error messages that offer information about the exact cause of the error. All error codes and error messages should be defined in the API documentation.
