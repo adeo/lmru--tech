@@ -165,7 +165,7 @@ They allow the response to be filtered according to certain criteria.
 * In case of partially returned collection should return `206`.
 
 {{% alert color="info" title="204 or 404" %}}
-There is a debate: which code I should return when the URL is correct but the data is not found. We would recommend you to return a `404` when the data was <abbr data-toggle="tooltip" title="Example: /v1/solutions/12070000001">accessed by key</abbr>, and `204` when there is no information found after filtering or <abbr data-toggle="tooltip" title="Example: /v1/soluitons/search?deliveryType=HOME_DELIVERY">searching by parameters</abbr>.
+There is a debate: which code I should return when the URL is correct but the data is not found. We would recommend you to return a `404` when the data was <abbr data-toggle="tooltip" title="Example: /v1/solutions/12070000001">accessed by key</abbr>, and `204` when there is no information found after filtering or <abbr data-toggle="tooltip" title="Example: /v1/solutions?customerId=134111">searching by parameters</abbr>.
 {{% /alert %}}
 
 #### POST
