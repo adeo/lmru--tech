@@ -33,7 +33,7 @@ It is highly welcomed when people invest their resources in community developmen
 
 * We offer and test fast our ideas, even the craziest.
 * We are not afraid to take the first step, fall into the dirt, rise, shake off, write a post mortem with clean hands, and go the other way. 
-* We work on our mistakes to prevent their in the future.
+* We work on our mistakes to prevent them in the future.
 * *Mistakes* term does not include intentional violation of the rules. 
 
 #### Practices & rituals: 
@@ -45,10 +45,10 @@ and quickly try something else, a concept known as pivoting.
 {{< glossary title="Post mortem" >}}
 Also called a major incident review.
 A written blameless-style incident review with the timings and activities that were done in order to fix the problem. 
-Also contains activities should be done in the future to prevent the repeat of the accident.
+Also contains activities that should be done in the future to prevent repetition of the accident.
 {{< /glossary >}}
 
-{{< alert color="warning" title="Antipattern" >}}Repeatable problem on production due to lack of actions done after post-mortem has been written.{{< /alert >}}
+{{< alert color="warning" title="Antipattern" >}}Repeated problem in production due to lack of actions after a post-mortem has been written.{{< /alert >}}
 
 ---
 
@@ -57,7 +57,7 @@ Also contains activities should be done in the future to prevent the repeat of t
 * We respect team rules. 
 * We prefer nonformal style of communication to officialism.
 * We know goals of every meeting and record all decisions. 
-Each invitation to the meeting should have agenda.
+Each invitation to a meeting should have an agenda.
 * We prepare for meetings before the meeting. 
 Meetings are not the only way to make a decision.
 * We may work remotely and have flexible working hours. 
