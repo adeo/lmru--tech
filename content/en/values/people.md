@@ -7,23 +7,23 @@ description: People are the heart of the company.
 
 {{% pageinfo color="warning" %}}
 <h3>Work in progress</h3><br />
-Content under construction: the set of values is not accepted and not convenient for use yet. <br /><br />
+Content under construction: this set of values is not approved and should be read as a draft. <br /><br />
 {{% /pageinfo %}}
 
 ### 1. We value common success on the same level with personal.
 
-* We are open to colleagues and sharing personal and team experience. 
+* We are open to colleagues, we share personal and team experience.
 
 #### Practices & rituals: 
 {{< glossary title="Communities" >}}
-Our company divided into separate products and domains.
-It means, we have no separated IT direction with the traditional way of management.
-These conditions makes professional communities and guilds vital.
+Our company is divided into products and domains.
+It means that we do not separate IT teams and business teams.
+These conditions make professional communities and guilds vital.
 
-Cross-product communities by interests its a place for knowledge and news sharing, 
-source of organizational and professional help and
-almost the only way to keep a connection between colleagues with similar competences.
-It is highly welcomed when people invest their resources in community development.
+Cross-product communities by interests allows for knowledge and news sharing, 
+is a source of organizational and professional help and
+almost the only way to keep a connection between colleagues with similar competences across the organization.
+It is highly encouraged for teams to invest resources in community development.
 {{< /glossary >}}
 {{< alert color="warning" title="Antipattern" >}}Overfulfill your own tasks while your colleague can not finish in time and you were able to help.{{< /alert >}}
 
@@ -31,7 +31,7 @@ It is highly welcomed when people invest their resources in community developmen
 
 ### 2. We accept mistakes and learn from them.
 
-* We offer and test fast our ideas, even the craziest.
+* We share ideas and test them fast, even the craziest.
 * We are not afraid to take the first step, fall into the dirt, rise, shake off, write a post mortem with clean hands, and go the other way. 
 * We work on our mistakes to prevent them in the future.
 * *Mistakes* term does not include intentional violation of the rules. 
@@ -92,7 +92,7 @@ The Retro is the event giving an opportunity for the team to inspect itself and 
 
 ### 4. We give and request constructive feedback.
 
-* We prefer nonviolent communication.
+* We use nonviolent communication.
 * We discuss facts, not emotions or personality.
 
 #### Practices & rituals: 
