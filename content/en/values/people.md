@@ -130,7 +130,7 @@ The sooner you get the feedback, the faster you can fix the problem.
 
 
 {{< alert color="warning" title="Antipattern" >}}
-This service worked fine all these years. Don't bother improving it, you'll ruin it.
+OMG, screw this Slack, I have so many chats in Telegram — it would be such a pain to move there.
 {{< /alert >}}
 
 ---
