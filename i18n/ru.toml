@@ -41,3 +41,16 @@ other = "Предложить улучшение"
 other = "Создать тикет"
 [post_posts_in]
 other = "Страниц в"
+
+[feedback_title]
+other = "Обратная связь"
+[feedback_question]
+other = "Ты нашёл ответ на свой вопрос?"
+[feedback_answer_yes]
+other = "Да"
+[feedback_answer_no]
+other = "Нет"
+[feedback_response_yes]
+other = "Огонь! :) <a href='https://github.com/adeo/lmru--tech/issues/new' target='_blank'>Подскажи</a>, как можно сделать ещё лучше."
+[feedback_response_no]
+other = "Печально это слышать :( <a href='https://github.com/adeo/lmru--tech/issues/new' target='_blank'>Подскажи</a>, какой вопрос у тебя был."

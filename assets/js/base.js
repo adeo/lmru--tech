@@ -34,7 +34,7 @@ limitations under the License.
             },
             trigger: 'click',
             animation: false,
-            placement: 'right',
+            placement: 'bottom',
             html: true,
             template: '<div class="popover" role="tooltip"><div class="arrow"></div><i class="fa fa-times-circle" onclick="$(\'.glossary\').popover(\'hide\');"></i><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
         });

@@ -16,7 +16,7 @@ of Open source products and support the community.
 
 Here is the instruction for the teams what to do in order to open up the project.
 
-## Three steps to Open source your code
+## Three steps to open source your code
 
 {{< blocks/section color="white" >}}
 {{% blocks/feature icon="fa-dice-one" title="Step 1" %}}
@@ -36,10 +36,10 @@ Check compatibility of third-party dependencies
 The project should have a list of members for the project. Each member should have:
 
 * Identity – Pavel Griboedov
-* Company — LLC "Leroy Merlin Vostok"
+* Company — LLC «Leroy Merlin Vostok»
 * Contact email – pavel.griboedov@leroymerlin.ru
 
-#### Setting correct information in Git
+#### Setting correct information in `git`
 It is required to send proper meta information in all commits. 
 This information used to determine an author of the code.
 
@@ -61,13 +61,13 @@ In practice, originality stems from the ability to identify *design decisions* i
 Personal intellectual contribution of the developer demonstrating that another developer would have solved
 the technical issue in a different manner.
 
-![Design Decision Example](../images/design_decision.jpg)
+![Design Decision Example](/images/design_decision.jpg)
 {{< /alert >}}
 
 {{< alert color="danger" title="Not a Design Decision" >}}
 Automatically generated code or the code which can only be written in a single manner.
 
-![Not A Design Decision Example](../images/not_design_decision.jpg)
+![Not A Design Decision Example](/images/not_design_decision.jpg)
 {{< /alert >}}
 
 ### Step 2. Choose the license
@@ -131,7 +131,7 @@ A permissive license whose main conditions require preservation of copyright and
 Contributors provide an express grant of patent rights. 
 Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
-![Apache License](../images/apache_license.jpg)
+![Apache License](/images/apache_license.jpg)
 
 [source](https://choosealicense.com/licenses/apache-2.0/)
 {{< /alert >}}

@@ -7,20 +7,25 @@ description: Сonstantly challenging selection of tools.
 
 {{% pageinfo color="warning" %}}
 <h3>Work in progress</h3><br />
-Content under construction: the set of values is not accepted and not convenient for use yet. <br /><br />
+Content under construction: this set of values is not approved and should be read as a draft. <br /><br />
 {{% /pageinfo %}}
 
+### 1. All codebase are compliant with [InnerSource requirements](https://adeo.github.io/innersource/).
 
-### 1. All codebase should be compliant with [InnerSource requirements](https://adeo.github.io/innersource/).
-
-* Codebase should be accessible for every employee and stored in GitHub.
-* Non compliant repositories should declared as a technical debt and should be fixed.
+* Codebase accessible for each collaborators and stored in GitHub.
+* Non compliant repositories declared as a technical debt and fixed.
 * Code review is mandatory.
 
 #### Practices & rituals: 
 {{< glossary title="30% rule" >}}
 Each engineer may spend some part of his working time on R&D tasks, technical debt reduction or education. 
 The percentage it is approximate number and should be determined by technical leader together with the product team.
+{{< /glossary >}}
+{{< glossary title="The Boy Scout Rule" source="https://deviq.com/boy-scout-rule/" >}}
+True Boy Scouts have a rule regarding camping, that they should leave the campground cleaner than they found it.
+
+Our version is: **leave your code better than you found it.**
+As [Uncle Bob said](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.html), *the act of leaving a mess in the code should be as socially unacceptable as littering.*
 {{< /glossary >}}
 
 {{< alert color="warning" title="Antipattern" >}}Closed repository without readme and maintainers working in production.{{< /alert >}}
@@ -30,7 +35,7 @@ The percentage it is approximate number and should be determined by technical le
 ### 2. We automate everything as much as possible.
 
 * We prefer automated tests rather than manual testing.
-* Build & Deploy should be done by CI tool.
+* Build & Deploy done by CI tool.
 
 #### Practices & rituals: 
 {{< glossary title="DevOps" >}}
@@ -46,7 +51,7 @@ Infrastructure as a Code. We prefer to have automated configuration files rather
 
 ---
 
-### 3. Choice of technology should be aligned with [Technology Table](../../stack/).
+### 3. Choice of technology aligned with [Technology Table]({{< ref "/stack" >}}).
 
 * Table is kept up-to-date by technology committee.
 * All movements in the table are  logged in decision records table.
@@ -65,7 +70,7 @@ Meetings are held at least once a month. Leader — CTO.
 
 ### 4. Front applications follow [design system](https://zeroheight.com/1165fb04f/).
 
-* All business settings should be configurable through UI.
+* All business settings configurable through UI.
 
 {{< alert color="warning" title="Antipattern" >}}Built in store application uses Comic Sans.{{< /alert >}}
 
@@ -73,12 +78,10 @@ Meetings are held at least once a month. Leader — CTO.
 
 ### 5. We build cloud native applications. 
 
-* When possible applications runs inside containers using container orchestrator.
+* We prefer to run applications inside containers using container orchestrator.
 * We prefer stateless applications
 * Applications exposes telemetry for analysis and monitoring.
-* Requests are traceable.
 * Applications and databases are replicated and can be sharded.
-* Configuration of applications should be done in environment and not locked in application.
 
 #### Practices & rituals: 
 {{< glossary title="Distributed Tracing" >}}
@@ -91,9 +94,10 @@ Each request on the entrance receives a unique tracing ID and pushes this ID wit
 
 ### 6. We build robust applications and infrastructure.
 
-* We response accurately and correctly handle wrong inputs.
+* We know about production issues before end-users.
+* Applications handle partial outages.
+* Applications responses accurately and correctly handle wrong inputs.
 * Services provides <abbr data-toggle="tooltip" title="Service Level Objective is a goal that service provider wants to reach.">SLO</abbr> and controls them.
-* We handle partial outages.
 * Infrastructure for key systems allows to have master-master replication.
 
 #### Practices & rituals: 

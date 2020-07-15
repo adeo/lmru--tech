@@ -1,0 +1,57 @@
+<style>
+  .feedback--answer {
+    display: inline-block;
+  }
+  .feedback--answer-no {
+    margin-left: 1em;
+  }
+  .feedback--response {
+    display: none;
+    margin-top: 1em;
+  }
+  .feedback--response__visible {
+    display: block;
+  }
+</style>
+<h2 class="feedback--title">{{ T "feedback_title" }}</h2>
+<p class="feedback--question">{{ T "feedback_question" }}</p>
+<button class="feedback--answer feedback--answer-yes btn">{{ T "feedback_answer_yes" }}</button>
+<button class="feedback--answer feedback--answer-no btn">{{ T "feedback_answer_no" }}</button>
+<p class="feedback--response feedback--response-yes">
+  {{ T "feedback_response_yes" | safeHTML  }}
+</p>
+<p class="feedback--response feedback--response-no">
+  {{ T "feedback_response_no" | safeHTML }}
+</p>
+<script>
+  const yesButton = document.querySelector('.feedback--answer-yes');
+  const noButton = document.querySelector('.feedback--answer-no');
+  const yesResponse = document.querySelector('.feedback--response-yes');
+  const noResponse = document.querySelector('.feedback--response-no');
+  const disableButtons = () => {
+    yesButton.disabled = true;
+    noButton.disabled = true;
+  };
+  const sendFeedback = (value) => {
+    if (typeof dataLayer !== 'function') return;
+    dataLayer.push({
+    'event': 'LeroyMerlin_new',
+    'eventAction': 'click',
+    'eventCategory': 'Interactions',
+    'eventLabel': 'button',
+    'eventLocation': window.location.pathname, 
+    'eventContent': value, 
+    'eventContext': 'Полезность'
+    });
+  };
+  yesButton.addEventListener('click', () => {
+    yesResponse.classList.add('feedback--response__visible');
+    disableButtons();
+    sendFeedback('Yes');
+  });
+  noButton.addEventListener('click', () => {
+    noResponse.classList.add('feedback--response__visible');
+    disableButtons();
+    sendFeedback('No');
+  });
+</script>

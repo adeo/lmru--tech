@@ -12,7 +12,7 @@ enableGitInfo = true
 # Language settings
 contentDir = "content/en"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
 
@@ -47,22 +47,22 @@ anchor = "smart"
 [services]
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-id = "UA-168436056-1"
+id = "GTM-TWVZ2P9"
 
 # Language configuration
 
 [languages]
 [languages.en]
 title = "Leroy Merlin Tech"
-description = "Company's engineering culture site."
+description = "Company's engineering portal."
 languageName ="English"
-# Weight used for sorting.
-weight = 1
+weight = 2
 [languages.ru]
 title = "Леруа Мерлен Tech"
 description = "Инженерная культура компании"
 languageName ="Русский"
 contentDir = "content/ru"
+weight = 1
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
@@ -133,7 +133,7 @@ footer_about_disable = true
 # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
 # add "hide_feedback: true" to the page's front matter.
 [params.ui.feedback]
-enable = false
+enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
 yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
 no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'

@@ -1,5 +1,5 @@
 <div class="glossary-item d-inline">
-{{ with .Get "title" }}<span data-title="{{ . | safeHTML }}" class="glossary">{{ . | safeHTML }}</span>{{ end }}
+{{ with .Get "title" }}<span data-title="{{ . | safeHTML }}" class="glossary">{{ . | safeHTML }}</span> {{ end }}
 <div class="glossary-text text-hide d-inline">{{ .Inner | markdownify }}
 {{ with .Get "source" }}<a href="{{ . }}" class="text-muted" target="blank">[source]</a>{{ end }}
 </div>

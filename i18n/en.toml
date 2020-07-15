@@ -41,3 +41,16 @@ other = "Offer an improvement"
 other = "Create project issue"
 [post_posts_in]
 other = "Posts in"
+
+[feedback_title]
+other = "Feedback"
+[feedback_question]
+other = "Did you find an answer to your question?"
+[feedback_answer_yes]
+other = "Yes"
+[feedback_answer_no]
+other = "No"
+[feedback_response_yes]
+other = "Great :) Please <a href='https://github.com/adeo/lmru--tech/issues/new' target='_blank'>tell us</a> how we can improve."
+[feedback_response_no]
+other = "Sorry to hear that :( Please <a href='https://github.com/adeo/lmru--tech/issues/new' target='_blank'>tell us</a> the question you had."

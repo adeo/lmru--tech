@@ -15,7 +15,7 @@
 }
 
 #main-subtitle {
-    margin-top: 11rem;
+    margin-top: 15rem;
 }
 body {
     color: #333;
@@ -27,6 +27,10 @@ a {
 
 a.btn {
     border-radius:4px;
+}
+
+.btn {
+    border-radius: 4px;
 }
 
 code {
@@ -61,7 +65,66 @@ ul.navbar-nav .dropdown {
     cursor: pointer;
 }
 
+.glossary-item {
+    margin-right: 5px;
+}
+
 .glossary-text * {
     display: inline !important;
     padding-inline-start: 0 !important;
+}
+
+#td-cover-block-people {
+    background-image: url('/images/people.jpg');
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+}
+
+.feedback--title {
+    border-top: 1px solid #464C5C !important;
+    padding-top: 1em;
+}
+
+.td-content table code.lang, .td-content p code.lang {
+    background-color: #3B59A4;
+    color: #FFF;
+    margin-right: 2px;
+    white-space: nowrap;
+}
+
+.td-content table code.platform, .td-content p code.platform {
+    background-color: #ad4b00;
+    color: #FFF;
+    margin-right: 2px;
+    white-space: nowrap;
+}
+
+.td-content table code.tool, .td-content p code.tool {
+    background-color: #008e87;
+    color: #FFF;
+    margin-right: 2px;
+    white-space: nowrap;
+}
+
+table.dataTable {
+    thead th,
+    thead td {
+        background-color: #464C5C;
+        color: white;
+        border: none;
+    }
+
+    tr td {
+        border-right: 1px #F2F3F5 solid;
+        border-top: none;
+    }
+
+    tr.dtrg-group.dtrg-level-0 td {
+        background-color: #CED0D6 !important;
+    }
+
+    tr.dtrg-group.dtrg-level-1 td {
+        background-color: #E8E9EB !important;
+        padding-left: 1em !important;
+    }
 }

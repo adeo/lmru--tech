@@ -2,18 +2,18 @@
 title: "Architecture"
 weight: 20
 type: docs
-description: We are building long-term systems and care about technical debt.
+description: Building long-term systems and fighting with technical debt.
 ---
 
 {{% pageinfo color="warning" %}}
 <h3>Work in progress</h3><br />
-Content under construction: the set of values is not accepted and not convenient for use yet. <br /><br />
+Content under construction: this set of values is not approved and should be read as a draft. <br /><br />
 {{% /pageinfo %}}
 
 ### 1. We care about API cleanness.
 
-* We expose services to other teams through APIs on the Developer Portal. *[<i class="fa fa-lock"></i> internal ](https://developers.apigee.lmru.tech/)*
-* We are following [API Design Principles](../../api/). Non compliant APIs should declared as a technical debt and modified.
+* We expose services to other teams through APIs on the Developer Portal. *[<i class="fa fa-lock"></i> internal ](https://devportal-apim.apps.lmru.tech/)*
+* We are following [API Design Principles]({{< ref "/api" >}}). Non compliant APIs should declared as a technical debt and modified.
 * <abbr data-toggle="tooltip" title="Service is an application, but not all applications are services. For example, a frontend is not a service.">Services</abbr> do not provide a client library. The API and its data model are expressed as REST and JSON <abbr  data-toggle="tooltip" title="Shared internal dependencies lead to a large-scale complexity over time.">[?]</abbr>.
 
 #### Practices & rituals: 
@@ -22,7 +22,7 @@ Each engineer may spend some part of his working time on R&D tasks, technical de
 The percentage it is approximate number and should be determined by technical leader together with the product team.
 {{< /glossary >}}
 
-{{< alert color="warning" title="Antipattern" >}}GraphQL or GRPC endpoint exposed for external usage. <sup>[[See Technology Value]](../technology/#3-choice-of-technology-should-be-aligned-with-technology-tablestack)</sup>{{< /alert >}}
+{{< alert color="warning" title="Antipattern" >}}GraphQL or GRPC endpoint exposed for external usage. <sup>[[See Technology Value]]({{< ref "technology/#3-choice-of-technology-aligned-with-technology-tablehahahugoshortcode-s6-hbhb" >}})</sup>{{< /alert >}}
 
 ---
 
@@ -67,10 +67,10 @@ Microservices pattern for building of sequenses of execution (SAGAs). Short expl
 An estimated amount of money earned by product or feature divided on spends on it should be calculated before work run.
 {{< /glossary >}}
 {{< glossary title="KISS" >}}
-Keep It Stupid Simple. Like Occam said, «[entities should not be multiplied without necessity](https://en.wikipedia.org/wiki/Occam%27s_razor)». Adding new levels of abstraction must have a strong reason. Adding new data entities or solution components also must have strong reason. Simplification is a King and we welcome the approach to describe it as an architecture debt and rework the complex areas to make it simple. The decision is made at the level of a technical and solution architect, in controversial situations we made decisions on the [Architecture Committee](#practices--rituals-1).
+Keep It Stupid Simple. Like Occam said, «[entities should not be multiplied without necessity](https://en.wikipedia.org/wiki/Occam%27s_razor)». Adding new levels of abstraction must have a strong reason. Adding new data entities or solution components also must have strong reason. Simplification is a King and we welcome the approach to describe it as an architecture debt and rework the complex areas to make it simple.
 {{< /glossary >}}
 {{< glossary title="DRY" >}}
 Do Not Repeat Yorself. Differently said, we are not develop multilple systems/modules/microservices/components with the same purpose.
 {{< /glossary >}}
 
-{{< alert color="warning" title="Antipattern" >}}We are using some technology only because of hype or fashion.{{< /alert >}}
+{{< alert color="warning" title="Antipattern" >}}Unprofitable product continues to develop for a long time because it is scary to admit a mistake. <sup>[[See People Value]]({{< ref "people/#2-we-accept-mistakes-and-learn-from-them" >}})</sup>{{< /alert >}}
