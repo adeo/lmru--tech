@@ -147,7 +147,6 @@ Want to change job — ask HR for options. There is a possibility to change a pr
 {{< /glossary >}}
 
 {{< glossary title="In Store Integration" >}}
-Every collaborator not depending on his position and role 
 Each employee, regardless of position or position, must pass a two-week internship in the store.
 
 This is necessary to better understand the specifics of the business, people and their real pains.
@@ -157,14 +156,13 @@ This is necessary to better understand the specifics of the business, people and
 
 ---
 
-### 6. We work consciously.
+### 6. We work awarely.
 
 * We know the subject area.
-* We understand why we are doing every task.
-* We know the code and technology we write and use.
+* We understand what for we are doing every task.
+* We know the code we write and technology we use.
 
 {{< glossary title="In Store Integration" >}}
-Every collaborator not depending on his position and role 
 Each employee, regardless of position or position, must pass a two-week internship in the store.
 
 This is necessary to better understand the specifics of the business, people and their real pains.
@@ -177,4 +175,4 @@ Each engineer may spend some part of his working time on R&D tasks, technical de
 The percentage it is approximate number and should be determined by technical leader together with the product team.
 {{< /glossary >}}
 
-{{< alert color="warning" title="Antipattern" >}}Mindlessly copy the solution from stackoverflow and happily close the task.{{< /alert >}}
+{{< alert color="warning" title="Antipattern" >}}Mindlessly copy a solution from stackoverflow and happily close the task.{{< /alert >}}
