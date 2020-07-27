@@ -160,7 +160,7 @@ This is necessary to better understand the specifics of the business, people and
 
 * We know the subject area.
 * We understand what for we are doing every task.
-* We know the code we write and technology we use.
+* We know the code we write and technologies we use.
 
 {{< glossary title="In Store Integration" >}}
 Each employee, regardless of position or position, must pass a two-week internship in the store.
