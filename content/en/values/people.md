@@ -159,7 +159,7 @@ This is necessary to better understand the specifics of the business, people and
 ### 6. We work awarely.
 
 * We know the subject area.
-* We understand what for we are doing every task.
+* We understand what for and why we are doing every task.
 * We know the code we write and technologies we use.
 
 {{< glossary title="In Store Integration" >}}
