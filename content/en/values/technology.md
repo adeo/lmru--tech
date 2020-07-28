@@ -27,6 +27,9 @@ True Boy Scouts have a rule regarding camping, that they should leave the campgr
 Our version is: **leave your code better than you found it.**
 As [Uncle Bob said](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.html), *the act of leaving a mess in the code should be as socially unacceptable as littering.*
 {{< /glossary >}}
+{{< glossary title="Contribution conventions" source="https://adeo.github.io/innersource" >}}
+The project uses a consistent convention to handle contributions from it’s own team but also for external teams, I.E: pull requests, code-review and branch permissions
+{{< /glossary >}}
 
 {{< alert color="warning" title="Antipattern" >}}Closed repository without readme and maintainers working in production.{{< /alert >}}
 
@@ -71,6 +74,10 @@ Meetings are held at least once a month. Leader — CTO.
 ### 4. Front applications follow [design system](https://zeroheight.com/1165fb04f/).
 
 * All business settings configurable through UI.
+
+{{< glossary title="Design System" source="https://uxdesign.cc/what-the-heck-is-a-design-system-c89a8ea73b0d">}}
+Design System – the system of rules and tools for visual and technical design. Reflects the philosophy of the product and constantly developing.
+{{< /glossary >}}
 
 {{< alert color="warning" title="Antipattern" >}}Built in store application uses Comic Sans.{{< /alert >}}
 
