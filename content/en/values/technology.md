@@ -76,26 +76,12 @@ Meetings are held at least once a month. Leader — CTO.
 
 ---
 
-### 5. We build cloud native applications. 
-
-* We prefer to run applications inside containers using container orchestrator.
-* We prefer stateless applications
-* Applications exposes telemetry for analysis and monitoring.
-* Applications and databases are replicated and can be sharded.
-
-#### Practices & rituals: 
-{{< glossary title="Distributed Tracing" >}}
-Each request on the entrance receives a unique tracing ID and pushes this ID with all consequence calls.
-{{< /glossary >}}
-
-{{< alert color="warning" title="Antipattern" >}}Monolith uses stored procedures in the database and run in plain hardware.{{< /alert >}}
-
----
-
-### 6. We build robust applications and infrastructure.
+### 5. We build robust applications and infrastructure.
 
 * We know about production issues before end-users.
+* We prefer develop stateless applications and run them inside containers using container orchestrator.
 * Applications handle partial outages.
+* Applications and databases are replicated and can be sharded.
 * Applications responses accurately and correctly handle wrong inputs.
 * Services provides <abbr data-toggle="tooltip" title="Service Level Objective is a goal that service provider wants to reach.">SLO</abbr> and controls them.
 * Infrastructure for key systems allows to have master-master replication.
@@ -110,9 +96,14 @@ A way how to track SLO.
 * Errors — does the service throw an error when I use it?
 * Tickets — does the service require manual intervention to complete my request?
 {{< /glossary >}}
-
 {{< glossary title="Feature Toggling">}}
 An approach where new functionality should be added as a pluggable module and can be turned off at any time.
+{{< /glossary >}}
+{{< glossary title="Distributed Tracing" >}}
+Each request on the entrance receives a unique tracing ID and pushes this ID with all consequence calls.
+{{< /glossary >}}
+{{< glossary title="Telemetry" >}}
+Applications expose endpoints with health metrics for analysis and monitoring.
 {{< /glossary >}}
 
 {{< alert color="warning" title="Antipattern" >}}Client can't order because email system is broken.{{< /alert >}}
