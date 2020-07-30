@@ -156,7 +156,7 @@ This is necessary to better understand the specifics of the business, people and
 
 ---
 
-### 6. We work awarely.
+### 6. We work consciously.
 
 * We know the subject area.
 * We understand what for and why we are doing every task.
@@ -165,7 +165,7 @@ This is necessary to better understand the specifics of the business, people and
 {{< glossary title="In Store Integration" >}}
 Each employee, regardless of position or position, must pass a two-week internship in the store.
 
-This is necessary to better understand the specifics of the business, people and their real pains.
+This is necessary to better understand the specifics of the business, people and their real pains and think about possible improvements.
 {{< /glossary >}}
 {{< glossary title="Retrospective" source="https://www.scrumguides.org/scrum-guide.html#events-retro" >}}
 The Retro is the event giving an opportunity for the team to inspect itself and create a plan for improvements to be enacted next time.
