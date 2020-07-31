@@ -32,6 +32,9 @@ The Retro is the event giving an opportunity for the team to inspect itself and 
 {{< glossary title="InnerSource" >}}
 [Being InnerSource Ready](https://adeo.github.io/innersource) means that you are ready to collaborate with other developers, including developers in your team.
 {{< /glossary >}}
+{{< glossary title="Contribution conventions" source="https://adeo.github.io/innersource" >}}
+The project uses a consistent convention to handle contributions from it’s own team but also for external teams, I.E: pull requests, code-review and branch permissions
+{{< /glossary >}}
 
 {{< alert color="warning" title="Antipattern" >}}
 Overfulfill your own tasks while your colleague can not finish in time and you were able to help.

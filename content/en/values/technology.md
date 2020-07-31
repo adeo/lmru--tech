@@ -76,7 +76,7 @@ Meetings are held at least once a month. Leader — CTO.
 * All business settings configurable through UI.
 
 {{< glossary title="Design System" source="https://uxdesign.cc/what-the-heck-is-a-design-system-c89a8ea73b0d">}}
-Design System – the system of rules and tools for visual and technical design. Reflects the philosophy of the product and constantly developing.
+Design System – the system of rules and tools for visual and technical design. Reflects the philosophy of the product. Design System continuously evolving.
 {{< /glossary >}}
 
 {{< alert color="warning" title="Antipattern" >}}Built in store application uses Comic Sans.{{< /alert >}}
