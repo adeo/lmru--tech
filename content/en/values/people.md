@@ -73,7 +73,8 @@ Also contains activities that should be done in the future to prevent repetition
 * We prepare for meetings before the meeting. Meetings are not the only way to make a decision
 * We listen to each other and give everyone an opportunity to express and explain their point of view.
 * We don't impose our opinion in any way, but do our best to explain it and convince others.
-* We may work remotely and have flexible working hours. 
+* We may work remotely and have flexible working hours.
+* We value work-life balance.
 
 #### Practices & rituals: 
 
