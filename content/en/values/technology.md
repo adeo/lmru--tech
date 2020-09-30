@@ -121,13 +121,13 @@ Applications expose endpoints with health metrics for analysis and monitoring.
 
 ### 6. Software testing is as important as software development.
 
-* QA specialists actively participate in designing product/feature.
+* Testing process start on designing product/feature requirements stage.
 * Every product team has at least one QA-engineer.
-* Source code is covered by tests immediately. Do not postpone tests into the backlog!
+* Source code is covered by tests immediately. Tests created while code is being crafted, and not postpone to the backlog.
 
 #### Practices & rituals: 
 {{< glossary title="Dynamic test environments" >}}
-Software testing is conducted in dynamic test environment. Such environment should include all required for testing dependencies (it is recommended to mock out external services). Testing environment is isolated from external processed and systems to prevent them from affecting test results. Test environment is removed when testing is finished.
+Software testing is conducted in dynamic test environment. Such environment should include all required for testing dependencies (it is recommended to mock out external services). Testing environment is isolated from external processes and systems to prevent them from affecting test results. Test environment is removed when testing is finished.
 {{< /glossary >}}
 {{< glossary title="Mocking" >}}
 It is important to be independent of external systems (unstable behavior, restricted or prohibited control of test data) during software testing. For that case use mocking of such systems.
@@ -149,7 +149,7 @@ Backend performance is measured by following metrics:
 Frontend performance is measured with Google Lighthouse and its metrics.
 {{< /glossary >}}
 {{< glossary title="Canary deployment" >}}
-Canary deployment helps to reduce negative impact of new feature deployment in case it contains bugs.
+Canary deployment helps to reduce negative impact of new feature deployment in case it contains bugs. This strategy is that the first deploy the change to a small subset of servers, test it, and then roll the change out to the rest of the servers. [Learn more](https://octopus.com/docs/deployment-patterns/canary-deployments#:~:text=Canary%20deployments%20are%20a%20pattern,the%20rest%20of%20the%20servers.)
 {{< /glossary >}}
 
 {{< alert color="warning" title="Antipattern" >}}Functional testing in production environment creates real incidents and worsens real users’ experience{{< /alert >}}
