@@ -88,12 +88,12 @@
        "Hold": "<code class='platform'>SQL Server</code>"
     },
     {
-       "Area": "Data",
-       "Cases": "DWH operational",
-       "Research": "<code class='tool'>Clickhouse</code>",
-       "Trial": "",
-       "Best choice": "",
-       "Hold": ""
+      "Area": "Data",
+      "Cases": "DWH operational",
+      "Research": "<code class='tool'>Clickhouse</code>",
+      "Trial": "",
+      "Best choice": "",
+      "Hold": ""
       },
     {
       "Area": "Data",
@@ -123,7 +123,7 @@
       "Area": "Business applications backend",
       "Cases": "CRUD",
       "Research": "",
-      "Trial": "<code class='lang'>GO</code> <code class='platform'>Platformeco</code> <code class='lang'>NodeJS</code> <code class='lang'>NEST JS</code> <code class='lang'>Typescript</code> <code class='lang'>Python (Django)</code> <code class='lang'>Python (fastapi)</code> <code class='lang'>Python (flask)</code>",
+      "Trial": "<code class='lang'>GO</code> <code class='platform'>Platformeco</code> <code class='lang'>NEST JS</code> <code class='lang'>Typescript</code> <code class='lang'>Python (Django)</code> <code class='lang'>Python (fastapi)</code> <code class='lang'>Python (flask)</code>",
       "Best choice": "<code class='lang'>Node.JS</code> <code class='lang'>Java</code> <code class='lang'>Springboot</code> <code class='lang'>Kotlin</code>",
       "Hold": "<code class='lang'>C#</code> <code class='lang'>ASP.Net</code> <code class='lang'>PHP</code>"
     },
@@ -168,27 +168,27 @@
       "Hold": "<code class='platform'>ESB</code> <code class='tool'>DB sync</code>"
     },
     {
-        "Area": "Frontends",
-        "Cases": "Web",
-        "Research": "",
-        "Trial": "<code class='lang'>TypeScript</code> <code class='lang'>Vue</code> <code class='lang'>Svelte</code> <code class='lang'>WebComponents</code> <code class='lang'>Angular</code> <code class='lang'>OKAPI</code> <code class='lang'>Fronton</code> <code class='lang'>Ant Design</code> <code class='lang'>Material Design</code>",
-        "Best choice": "<code class='lang'>JavaScript</code> <code class='lang'>React</code>",
-        "Hold": "<code class='lang'>php</code> <code class='tool'>AEM</code> <code class='tool'>Bitrix</code>"
+      "Area": "Frontends",
+      "Cases": "Web",
+      "Research": "",
+      "Trial": "<code class='lang'>TypeScript</code> <code class='lang'>Vue</code> <code class='lang'>Svelte</code> <code class='lang'>WebComponents</code> <code class='lang'>Angular</code> <code class='lang'>OKAPI</code> <code class='lang'>Fronton</code> <code class='lang'>Ant Design</code> <code class='lang'>Material Design</code>",
+      "Best choice": "<code class='lang'>JavaScript</code> <code class='lang'>React</code>",
+      "Hold": "<code class='lang'>php</code> <code class='tool'>AEM</code> <code class='tool'>Bitrix</code>"
     },
     {
-        "Area": "Frontends",
-        "Cases": "Mobile",
-        "Research": "<code class='lang'>Flutter</code>",
-        "Trial": "<code class='lang'>React Native</code> <code class='lang'>LMUI</code> <code class='lang'>Kotlin Multiplatform</code> <code class='lang'>Swift</code>",
-        "Best choice": "<code class='lang'>Swift</code> <code class='lang'>Kotlin</code>",
-        "Hold": "<code class='lang'>Java</code> <code class='lang'>Objective-C</code>"
+      "Area": "Frontends",
+      "Cases": "Mobile",
+      "Research": "<code class='platform'>Flutter</code>",
+      "Trial": "<code class='lang'>React Native</code> <code class='lang'>LMUI</code> <code class='lang'>Kotlin Multiplatform</code> <code class='lang'>Swift</code>",
+      "Best choice": "<code class='lang'>Swift</code> <code class='lang'>Kotlin</code>",
+      "Hold": "<code class='lang'>Java</code> <code class='lang'>Objective-C</code>"
     },
     {
       "Area": "QA",
       "Cases": "Functional",
       "Research": "<code class='tool'>Stubber</code>  <code class='tool'>Allure Server</code>",
       "Trial": "<code class='lang'>Kotlin</code> <code class='lang'>Codecept JS</code>",
-      "Best choice": "<code class='lang'>Mocha</code> <code class='lang'>Java</code> <code class='lang'>JavaScript</code> <code class='tool'>WireMock</code> <code class='lang'>Java</code> <code class='platform'>Umbrella</code> <code class='lang'>TestNG</code> <code class='tool'>Mountebank</code> <code class='lang'>JavaScript</code> <code class='lang'>Appium</code> <code class='tool'>Grafana</code> <code class='lang'>Selenide</code>",
+      "Best choice": "<code class='lang'>Mocha</code> <code class='lang'>Java</code> <code class='lang'>JavaScript</code> <code class='tool'>WireMock</code> <code class='platform'>Umbrella</code> <code class='lang'>TestNG</code> <code class='tool'>Mountebank</code> <code class='lang'>JavaScript</code> <code class='lang'>Appium</code> <code class='tool'>Grafana</code> <code class='lang'>Selenide</code>",
       "Hold": "<code class='lang'>Selenuim</code> <code class='lang'>Rest-Assured</code> <code class='lang'>Gemini</code> <code class='lang'>Nightwatch</code>"
     },
     {
