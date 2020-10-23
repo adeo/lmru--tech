@@ -233,7 +233,7 @@
     },
     {
       "Area": "Observability",
-      "Cases": "Monitoring (application) ",
+      "Cases": "Monitoring (application)",
       "Research": "<code class='tool'>Gogomonia</code>",
       "Trial": "<code class='tool'>VictoriaMetrics</code>",
       "Best choice": "<code class='tool'>Prometheus</code> <code class='platform'>Dynatrace</code>",
@@ -382,5 +382,5 @@
       "Trial": "",
       "Best choice": "<code class='platform'>Ngenix</code>",
       "Hold": "<code class='platform'>Cloudinary</code>"
-    },
-
+    }
+]
