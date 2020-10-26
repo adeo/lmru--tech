@@ -37,6 +37,7 @@ All categories except `research` can work in production.
 
 <div class="row">
 <div class="col-md-10 col-xl-9 text-justify">
+
 #### Here are the main influences to select the right technologies:
 * Current and future capability to develop and support component in terms of workforce
 * Maturity of a technology
