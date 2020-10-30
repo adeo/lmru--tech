@@ -188,7 +188,7 @@
       "Cases": "Functional",
       "Research": "<code class='tool'>Stubber</code>  <code class='tool'>Allure Server</code>",
       "Trial": "<code class='lang'>Kotlin</code> <code class='lang'>Codecept JS</code>",
-      "Best choice": "<code class='lang'>Mocha</code> <code class='lang'>Java</code> <code class='lang'>JavaScript</code> <code class='tool'>WireMock</code> <code class='platform'>Umbrella</code> <code class='lang'>TestNG</code> <code class='tool'>Mountebank</code> <code class='lang'>JavaScript</code> <code class='lang'>Appium</code> <code class='tool'>Grafana</code> <code class='lang'>Selenide</code>",
+      "Best choice": "<code class='lang'>Mocha</code> <code class='lang'>Java</code> <code class='lang'>JavaScript</code> <code class='tool'>WireMock</code> <code class='platform'>Umbrella</code> <code class='lang'>TestNG</code> <code class='tool'>Mountebank</code> <code class='lang'>Appium</code> <code class='tool'>Grafana</code> <code class='lang'>Selenide</code>",
       "Hold": "<code class='lang'>Selenuim</code> <code class='lang'>Rest-Assured</code> <code class='lang'>Gemini</code> <code class='lang'>Nightwatch</code>"
     },
     {
