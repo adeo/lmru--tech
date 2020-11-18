@@ -5,11 +5,6 @@ type: docs
 description: People are the heart of the company.
 ---
 
-{{% pageinfo color="warning" %}}
-<h4>Work in progress</h4><br />
-Content under construction: this set of values is not approved and should be read as a draft. <br /><br />
-{{% /pageinfo %}}
-
 ### 1. We value common success on the same level with personal.
 
 * We are open to colleagues, we share personal and team experience.
