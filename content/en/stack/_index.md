@@ -45,6 +45,9 @@ All categories except `research` can work in production.
 * Specific of using (type of load, sensitivity of data, etc.)
 * Licensing policy
 
+### Technology Committee
+The committee is a community of enterprise architects, technical architects and technical leaders of development teams and IT infrastructure. The main goal of the committee is the selection and recommendations on the use of technologies in Leroy Merlin Russia and increasing the efficiency of use of company resources. Technologies are understood as programming languages, frameworks and libraries, software tools and approaches in the context of specific usage scenarios.
+
 ### How to start to use new technology 
 * Adoption of technology for research with an understanding of the resources and timing of the process.
 To make this decision, it is required to have more than 40% positively voted participants.
