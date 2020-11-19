@@ -1,11 +1,10 @@
 ---
-title: "Технологический комитет"
+title: "Technology Committee"
 weight: 30
 type: docs
 ---
 
 # What is technology committee
-
 The committee is a community of enterprise architects, technical architects, and technical leaders of development teams and IT infrastructure. The main goal of the committee is to select and recommend the use of technologies in the Leroy Merlin Russia and to improve the efficiency of using the company's resources. Technologies mean programming languages, frameworks and libraries, software tools, and approaches in the context of specific use cases.
 
 # The purpose of the committee
