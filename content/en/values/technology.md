@@ -119,7 +119,7 @@ Applications expose endpoints with health metrics for analysis and monitoring.
 
 ---
 
-### 6. Software testing is as important as software development.
+### 6. Software testing has the same importance as software development.
 
 * Testing process start on designing product/feature requirements stage.
 * Every product team has at least one QA-engineer.
@@ -133,10 +133,6 @@ Software testing is conducted in dynamic test environment. Such environment shou
 It is important to be independent of external systems (unstable behavior, restricted or prohibited control of test data) during software testing. For that case use mocking of such systems.
 Mock is a system emulator that duplicates system behavior in limited manner but does not reproduce its inner logic.
 {{< /glossary >}}
-{{< glossary title="Contract testing" >}}
-Type of software testing which involves testing of system’s interfaces (both input and output) but not its logic. Contract tests aim to substitute integrational and e2e tests which are more complicated and have more dependencies.
-It is very important to keep contract – interface description - in actual state.
-{{< /glossary >}}
 {{< glossary title="Performance testing" >}}
 Type of software testing which involve testing of system’s performance but not its logic.
 
@@ -147,6 +143,7 @@ Backend performance is measured by following metrics:
 * system resources usage, %
 
 Frontend performance is measured with Google Lighthouse and its metrics.
+For backend tests recommended use the Gatling.
 {{< /glossary >}}
 {{< glossary title="Canary deployment" >}}
 Canary deployment helps to reduce negative impact of new feature deployment in case it contains bugs. This strategy is that the first deploy the change to a small subset of servers, test it, and then roll the change out to the rest of the servers. [Learn more](https://octopus.com/docs/deployment-patterns/canary-deployments#:~:text=Canary%20deployments%20are%20a%20pattern,the%20rest%20of%20the%20servers.)
