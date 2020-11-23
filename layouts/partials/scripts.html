@@ -4,11 +4,12 @@
 
 {{ $jsBase := resources.Get "js/base.js" }}
 {{ $jsAnchor := resources.Get "js/anchor.js" }}
+{{ $jsYoumax := resources.Get "js/youmax.js" }}
 {{ $jsSearch := resources.Get "js/search.js" | resources.ExecuteAsTemplate "js/search.js" .Site.Home }}
 {{ if .Site.Params.offlineSearch }}
 {{ $jsSearch = resources.Get "js/offline-search.js" }}
 {{ end }}
-{{ $js := (slice $jsBase $jsAnchor $jsSearch) | resources.Concat "js/main.js" }}
+{{ $js := (slice $jsBase $jsAnchor $jsSearch $jsYoumax) | resources.Concat "js/main.js" }}
 {{ if .Site.IsServer }}
 <script src="{{ $js.RelPermalink }}"></script>
 {{ else }}
@@ -55,5 +56,15 @@
   } );
   </script>
 {{ end }}
+<script>
+	$('#youmax').youmax({
+	apiKey:'AIzaSyAc7Z4PtwiyQzntMScG533kmdoBMuH5FAI',
+	youTubeChannelURL:"https://www.youtube.com/channel/UCIqfZ4wqEoC6x6x-zyPCL8g",
+	youmaxDefaultTab:"UPLOADS",
+	youmaxColumns:4,
+	showVideoInLightbox:false,
+	maxResults: 4,
+});
+</script>
 
 {{ partial "hooks/body-end.html" . }}

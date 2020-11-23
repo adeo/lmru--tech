@@ -5,11 +5,6 @@ type: docs
 description: Сonstantly challenging selection of tools.
 ---
 
-{{% pageinfo color="warning" %}}
-<h4>Work in progress</h4><br />
-Content under construction: this set of values is not approved and should be read as a draft. <br /><br />
-{{% /pageinfo %}}
-
 ### 1. All codebase are compliant with [InnerSource requirements](https://adeo.github.io/innersource/).
 
 * Codebase accessible for each collaborators and stored in GitHub.

@@ -5,11 +5,6 @@ type: docs
 description: Building long-term systems and fighting with technical debt.
 ---
 
-{{% pageinfo color="warning" %}}
-<h4>Work in progress</h4><br />
-Content under construction: this set of values is not approved and should be read as a draft. <br /><br />
-{{% /pageinfo %}}
-
 ### 1. We care about API cleanness.
 
 * We expose services to other teams through APIs on the Developer Portal. *[<i class="fa fa-lock"></i> internal ](https://devportal-apim.apps.lmru.tech/)*

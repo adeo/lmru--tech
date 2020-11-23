@@ -36,23 +36,22 @@ title = "Leroy Merlin Tech"
 
 {{< blocks/section color="white" >}}
 <div class="col">
-<h3 class="text-center">Как говорится, work in progress</h3>
-<div class="text-center">Над этим сайтом мы усиленно работаем. Помоги нам, отправь <a href="https://github.com/adeo/lmru--tech/pulls">Пулл Реквест</a>.</div>
+<div id="youmax"></div>
 </div>
 {{< /blocks/section >}}
 
 {{< blocks/section color="white" >}}
 {{% blocks/feature icon="fab fa-github" title="Контрибьюции приветствуются" %}}
-Этот сайт написан полностью на маркдауне. <br /> Отправь [Пулл Реквест](https://github.com/adeo/lmru--tech/pulls) для изменения контента.
+Этот сайт написан полностью на маркдауне. <br /> Отправь <a href="https://github.com/adeo/lmru--tech/pulls" target="_blank">Пулл Реквест</a> для изменения контента.
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fa-building" title="Го к нам" %}}
-Поищи [открытые вакансии](https://hh.ru/search/vacancy?text=%D0%9B%D0%B5%D1%80%D1%83%D0%B0%20%D0%9C%D0%B5%D1%80%D0%BB%D0%B5%D0%BD&search_field=company_name&specialization=1).
+Поищи <a href="https://hh.ru/search/vacancy?text=%D0%9B%D0%B5%D1%80%D1%83%D0%B0%20%D0%9C%D0%B5%D1%80%D0%BB%D0%B5%D0%BD&search_field=company_name&specialization=1" target="_blank">открытые вакансии</a>.
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fa-globe" title="Международное сообщество" %}}
 Леруа Мерлен №1 DIY сеть в Европе.<br />
-Входим в группу компаний [Adeo Group](https://www.adeo.com/).
+Входим в группу компаний <a href="https://www.adeo.com/" target="_blank">Adeo Group</a>.
 {{% /blocks/feature %}}
 
 {{< /blocks/section >}}
