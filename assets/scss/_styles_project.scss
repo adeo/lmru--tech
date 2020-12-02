@@ -160,7 +160,7 @@ table.dataTable {
 
 #youmax-channel-desc {text-align:left;}
 
-#youmax {width:100%; max-width:1000px;background-color: #f8f9fa;margin:0px auto;font-size: 14px; overflow-x:hidden;}
+#youmax {width:100%; max-width:1000px;margin:0px auto;font-size: 14px; overflow-x:hidden;}
 
 .youmax-video-tnail {width:100%; background-repeat:no-repeat; background-size:cover;height:120px;position: relative;}
 
@@ -249,4 +249,12 @@ iframe#youmax-video {
 #youmax-load-more-div:hover {
 	background: darkgray;
 	color:white;
+}
+
+.card-text { 
+    color: #555; font-size: 12px;
+}
+
+.promoting-card {
+    border: none;
 }

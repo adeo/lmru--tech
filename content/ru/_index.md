@@ -34,10 +34,14 @@ title = "Leroy Merlin Tech"
 {{% /blocks/feature %}}
 {{< /blocks/section >}}
 
-{{< blocks/section color="white" >}}
+{{< blocks/section color="primary" >}}
 <div class="col">
-<div id="youmax"></div>
+<p class="text-center h2 pb-4">Выступления на конференциях</p>
+<div id="youmax" class="mt-4"></div>
 </div>
+{{< /blocks/section >}}
+{{< blocks/section color="white" >}}
+{{< habr >}}
 {{< /blocks/section >}}
 
 {{< blocks/section color="white" >}}

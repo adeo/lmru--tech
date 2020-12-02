@@ -1,0 +1,28 @@
+
+      <script src="/bundle/rss-parser.min.js"></script>
+      <script>
+        var habr = $("#habr");
+        // Note: some RSS feeds can't be loaded in the browser due to CORS security.
+        // To get around this, you can use a proxy.
+        let parser = new RSSParser();
+        parser.parseURL('https://cors-anywhere.herokuapp.com/https://habr.com/ru/rss/company/leroy_merlin/blog/?fl=ru', function(err, feed) {
+            if (err) throw err;
+            var i;
+            for (i = 0; i < 6; i++) {
+                var item = feed.items[i];
+                var itemDate = new Date(item.pubDate).toLocaleString('ru', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
+                var itemHtml = '<div class="card promoting-card"> \
+                                <div class="card-body d-flex flex-row"><img src="/images/habr.png" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar"><div> \
+                                <a target="_blank" href="' + item.link + '"><h4 class="card-title font-weight-bold mb-2">' + item.title + '</h4></a> \
+                                <p class="card-text"><i class="fa fa-user pr-1"></i> ' + item.creator + '<i class="fa fa-clock pl-3 pr-1"></i>' + itemDate + '</p> \
+                                <p>' + item.contentSnippet.substring(0, 250) + '…</p> \
+                                </div></div> \
+                                </div>';
+                habr.html(habr.html() + itemHtml);
+            }
+        })
+        </script>

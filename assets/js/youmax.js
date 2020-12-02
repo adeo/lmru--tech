@@ -121,7 +121,7 @@
     
             ym.append('<div id="youmax-encloser"><iframe id="youmax-video" width="'+(youmaxWidgetWidth-2)+'" height="'+(youmaxWidgetWidth/youmax_global_options.youtubeVideoAspectRatio)+'" src="" frameborder="0" allowfullscreen></iframe><div id="youmax-video-list-div" class="row"></div></div>');
     
-            ym.append('<div class="text-center pb-4 pt-2"><a class="btn btn-lg btn-primary" target="_blank" href="https://www.youtube.com/channel/UCIqfZ4wqEoC6x6x-zyPCL8g">Больше видео</a></div>')
+            ym.append('<div class="text-center pb-4 pt-4"><a class="btn btn-lg btn-light" target="_blank" href="https://www.youtube.com/channel/UCIqfZ4wqEoC6x6x-zyPCL8g">Больше видео</a></div>')
 
             $('#youmax-video').hide();
     
