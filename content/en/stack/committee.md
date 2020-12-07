@@ -16,7 +16,7 @@ The main flow of committee discussions revolves around the selection of technolo
 * Licensing model
 
 # Possible Decisions
-The committee decides on [the movement of technology by category]({{< ref "/stack/how-to-start" >}}).
+The committee decides on [the movement of technology by category]({{< ref "/stack/how-to-start" >}}) and architecture approaches approved on a company level.
 
 # Frequency of meetings
 The meetings are held once a month.
