@@ -36,7 +36,7 @@
       "Cases": "Data Platform backend",
       "Research": "",
       "Trial": "",
-      "Best choice": "<code class='lang'>GO</code> <code class='lang'>JAVA</code> <code class='lang'>Django</code>",
+      "Best choice": "<code class='lang'>Go</code> <code class='lang'>Java</code> <code class='lang'>Django</code>",
       "Hold": ""
     },
     {
@@ -67,7 +67,7 @@
       "Area": "Data",
       "Cases": "Data Visualization  (BI tools)",
       "Research": "",
-      "Trial": "",
+      "Trial": "<code class='platform'>Superset</code>",
       "Best choice": "<code class='platform'>Power BI</code> <code class='platform'>Tableau</code>",
       "Hold": "<code class='platform'>QlikView</code> <code class='platform'>SQL Server Reporting</code> <code class='platform'>SAP BusinessObjects</code>"
     },
@@ -99,7 +99,7 @@
       "Area": "Data",
       "Cases": "Dataload",
       "Research": "",
-      "Trial": "",
+      "Trial": "<code class='tool'>Huawei S3</code>",
       "Best choice": "<code class='tool'>Kafka</code> <code class='tool'>Yandex Object Storage S3</code>",
       "Hold": "<code class='platform'>Hadoop</code> <code class='tool'>MinIO</code>"
     },
@@ -108,8 +108,8 @@
       "Cases": "ETL",
       "Research": "",
       "Trial": "",
-      "Best choice": "<code class='platform'>NiFi</code> <code class='platform'>ESB Stambya</code>",
-      "Hold": "<code class='platform'>Talend</code>"
+      "Best choice": "<code class='platform'>NiFi</code>",
+      "Hold": "<code class='platform'>Talend</code> <code class='platform'>ESB Stambya</code>"
     },
     {
       "Area": "Data",
@@ -120,11 +120,19 @@
       "Hold": ""
     },
     {
+      "Area": "Data",
+      "Cases": "Data Quality Governance",
+      "Research": "",
+      "Trial": "<code class='platform'>great_expectations</code> <code class='platform'>Colibra</code>",
+      "Best choice": "",
+      "Hold": ""
+    },
+    {
       "Area": "Business applications backend",
       "Cases": "CRUD",
       "Research": "",
-      "Trial": "<code class='lang'>GO</code> <code class='platform'>Platformeco</code> <code class='lang'>NEST JS</code> <code class='lang'>Typescript</code> <code class='lang'>Python (Django)</code> <code class='lang'>Python (fastapi)</code> <code class='lang'>Python (flask)</code>",
-      "Best choice": "<code class='lang'>Node.JS</code> <code class='lang'>Java</code> <code class='lang'>Springboot</code> <code class='lang'>Kotlin</code>",
+      "Trial": "<code class='lang'>Go</code> <code class='platform'>Platformeco</code> <code class='lang'>Nest JS</code> <code class='lang'>Python (Django)</code> <code class='lang'>Python (fastapi)</code> <code class='lang'>Python (flask)</code>",
+      "Best choice": "<code class='lang'>Node.JS</code> <code class='lang'>Nest JS</code> <code class='lang'>Java</code> <code class='platform'>Spring Boot</code> <code class='lang'>Kotlin</code> <code class='lang'>Typescript</code>",
       "Hold": "<code class='lang'>C#</code> <code class='lang'>ASP.Net</code> <code class='lang'>PHP</code>"
     },
     {
@@ -146,10 +154,10 @@
     {
       "Area": "Business applications backend",
       "Cases": "Data storage",
-      "Research": "<code class='platform'>Huawei S3</code>",
-      "Trial": "<code class='tool'>Cassandra</code> <code class='tool'>MariaDB</code>",
-      "Best choice": "<code class='tool'>MongoDB</code> <code class='tool'>ClickHouse</code> <code class='tool'>PostgeSQL</code> <code class='platform'>S3</code> <code class='tool'>ElasticSearch</code>",
-      "Hold": "<code class='tool'>Oracle</code> <code class='tool'>MS SQL</code> <code class='tool'>FTPS /SFTP</code> <code class='tool'>My SQL</code>"
+      "Research": "",
+      "Trial": "<code class='tool'>Cassandra</code> <code class='tool'>MariaDB</code> <code class='platform'>Huawei S3</code>",
+      "Best choice": "<code class='tool'>MongoDB</code> <code class='tool'>ClickHouse</code> <code class='tool'>PostgeSQL</code> <code class='platform'>S3</code> <code class='tool'>Elasticsearch (opendistro)</code>",
+      "Hold": "<code class='tool'>Oracle</code> <code class='tool'>MS SQL</code> <code class='tool'>FTP / SFTP</code> <code class='tool'>MySQL</code>"
     },
     {
       "Area": "Business applications backend",
@@ -163,25 +171,41 @@
       "Area": "Business applications backend",
       "Cases": "Integration flows",
       "Research": "",
-      "Trial": "<code class='lang'>NodeJS: TypeScript</code> <code class='lang'>Java: SpringBoot</code> <code class='lang'>Kotlin: SpringBoot</code>",
-      "Best choice": "<code class='platform'>Platformeco</code> <code class='platform'>Ni-Fi</code>",
-      "Hold": "<code class='platform'>ESB</code> <code class='tool'>DB sync</code>"
+      "Trial": "",
+      "Best choice": "<code class='lang'>TypeScript: NodeJS</code> <code class='lang'>Java: Spring Boot</code> <code class='lang'>Kotlin: Spring Boot</code> <code class='platform'>Platformeco</code>",
+      "Hold": "<code class='platform'>ESB</code> <code class='tool'>Debezium / CDC Pattern</code>"
     },
     {
       "Area": "Frontends",
       "Cases": "Web",
       "Research": "",
-      "Trial": "<code class='lang'>TypeScript</code> <code class='lang'>Vue</code> <code class='lang'>Svelte</code> <code class='lang'>WebComponents</code> <code class='lang'>Angular</code> <code class='lang'>OKAPI</code> <code class='lang'>Fronton</code> <code class='lang'>Ant Design</code> <code class='lang'>Material Design</code>",
-      "Best choice": "<code class='lang'>JavaScript</code> <code class='lang'>React</code>",
-      "Hold": "<code class='lang'>php</code> <code class='tool'>AEM</code> <code class='tool'>Bitrix</code>"
+      "Trial": "<code class='lang'>Vue</code> <code class='tool'>WebComponents</code> <code class='platform'>Angular</code> <code class='tool'>OKAPI</code> <code class='tool'>Linaria</code> <code class='tool'>Mobx</code> <code class='tool'>Redux</code>",
+      "Best choice": "<code class='lang'>TypeScript</code> <code class='lang'>JavaScript</code> <code class='platform'>React</code> <code class='tool'>HTTP2</code> <code class='tool'>CSS Modules</code>",
+      "Hold": "<code class='lang'>PHP</code> <code class='tool'>AEM</code> <code class='lang'>BEM</code> <code class='tool'>Bitrix</code>"
+    },
+    {
+      "Area": "Frontends",
+      "Cases": "Design Systems for Web",
+      "Research": "",
+      "Trial": "<code class='lang'>Ant Design</code> <code class='lang'>Material Design</code>",
+      "Best choice": "<code class='lang'>Fronton</code>",
+      "Hold": "<code class='lang'>LMUI</code>"
     },
     {
       "Area": "Frontends",
       "Cases": "Mobile",
-      "Research": "<code class='platform'>Flutter</code>",
-      "Trial": "<code class='lang'>React Native</code> <code class='lang'>LMUI</code> <code class='lang'>Kotlin Multiplatform</code> <code class='lang'>Swift</code>",
-      "Best choice": "<code class='lang'>Swift</code> <code class='lang'>Kotlin</code>",
-      "Hold": "<code class='lang'>Java</code> <code class='lang'>Objective-C</code>"
+      "Research": "<code class='tool'>Kaspresso</code> <code class='tool'>XCTest</code>",
+      "Trial": "<code class='lang'>React Native</code> <code class='lang'>Kotlin Multiplatform</code>",
+      "Best choice": "<code class='lang'>Swift</code> <code class='tool'>Alamofire</code> <code class='tool'>Core Data</code> <code class='lang'>Kotlin</code> <code class='tool'>Firebase</code> <code class='tool'>Room</code> <code class='tool'>Jetpack Navigation</code> <code class='tool'>Retrofit + Okhttp</code>",
+      "Hold": "<code class='lang'>Java</code> <code class='lang'>Objective-C</code> <code class='lang'>RxJava</code> <code class='platform'>GRPC</code>"
+    },
+    {
+      "Area": "Frontends",
+      "Cases": "Design Systems for Mobile",
+      "Research": "",
+      "Trial": "<code class='lang'>LMUI</code>",
+      "Best choice": "<code class='lang'>Fronton</code>",
+      "Hold": ""
     },
     {
       "Area": "QA",
