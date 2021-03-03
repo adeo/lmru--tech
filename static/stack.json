@@ -210,7 +210,7 @@
     {
       "Area": "QA",
       "Cases": "Functional",
-      "Research": "<code class='tool'>Stubber</code>  <code class='tool'>Allure Server</code>",
+      "Research": "<code class='tool'>Stubber</code>  <code class='tool'>Allure Server</code> <code class='lang'>Cucumber</code>",
       "Trial": "<code class='lang'>Kotlin</code> <code class='lang'>Codecept JS</code>",
       "Best choice": "<code class='lang'>Mocha</code> <code class='lang'>Java</code> <code class='lang'>JavaScript</code> <code class='tool'>WireMock</code> <code class='platform'>Umbrella</code> <code class='lang'>TestNG</code> <code class='tool'>Mountebank</code> <code class='lang'>Appium</code> <code class='tool'>Grafana</code> <code class='lang'>Selenide</code>",
       "Hold": "<code class='lang'>Selenuim</code> <code class='lang'>Rest-Assured</code> <code class='lang'>Gemini</code> <code class='lang'>Nightwatch</code>"
@@ -235,9 +235,17 @@
       "Area": "API management",
       "Cases": "Protocols & integration agreements",
       "Research": "",
-      "Trial": "<code class='lang'>GRPC</code> <code class='lang'>GraphQL</code>",
-      "Best choice": "<code class='lang'>HTTP</code> <code class='lang'>HTTP2</code> <code class='lang'>WebSocket</code>",
-      "Hold": "<code class='lang'>SOAP</code> <code class='lang'>FTPS/SFTP</code>"
+      "Trial": "<code class='lang'>GRPC</code> <code class='lang'>GraphQL</code> <code class='lang'>WebSocket</code> <code class='platform'>NATS</code> <code class='platform'>NATS Streaming</code> <code class='tool'>Kafka Streams / connect</code>",
+      "Best choice": "<code class='lang'>REST</code> <code class='lang'>AMPQ (RabbitMQ)</code> <code class='tool'>Kafka</code>",
+      "Hold": "<code class='lang'>SOAP</code> <code class='lang'>JMS</code> <code class='tool'>ActiveMQ</code>"
+    },
+        {
+      "Area": "API management",
+      "Cases": "Product to Product integrations",
+      "Research": "",
+      "Trial": "",
+      "Best choice": "<code class='lang'>REST</code> <code class='tool'>AMPQ (RabbitMQ)</code> <code class='tool'>AMPQ (RabbitMQ)</code>",
+      "Hold": "<code class='tool'>SFTP/FTPS</code> <code class='lang'>GRPC</code> <code class='lang'>GraphQL</code> <code class='tool'>ActiveMQ</code> <code class='lang'>JMS</code>"
     },
     {
       "Area": "API management",
@@ -247,15 +255,7 @@
       "Best choice": "<code class='platform'>ApiGee</code>",
       "Hold": "<code class='tool'>Spring Gateway</code> <code class='platform'>Web methods ESB</code> <code class='tool'>Transfile perl</code> <code class='tool'>Spring Zuul</code>"
     },
-    {
-      "Area": "API management",
-      "Cases": "Messaging & Streaming",
-      "Research": "<code class='tool'>Pulsar</code>",
-      "Trial": "<code class='tool'>NATS/streaming</code> <code class='tool'>Kafka Streams / Connect</code>",
-      "Best choice": "<code class='tool'>AMQP (RabbitMQ)</code> <code class='platform'>Kafka</code>",
-      "Hold": "<code class='lang'>JMS</code> <code class='tool'>ActiveMQ</code>"
-    },
-    {
+     {
       "Area": "Observability",
       "Cases": "Monitoring (application)",
       "Research": "<code class='tool'>Gogomonia</code>",
@@ -266,9 +266,9 @@
     {
       "Area": "Observability",
       "Cases": "Alerting",
-      "Research": "<code class='tool'>Statuspage</code>",
+      "Research": "",
       "Trial": "",
-      "Best choice": "<code class='platform'>Opsgenie</code>",
+      "Best choice": "<code class='platform'>Opsgenie</code> <code class='tool'>Statuspage</code>",
       "Hold": "<code class='tool'>ELK</code> <code class='tool'>Grafana</code>"
     },
     {
@@ -282,9 +282,9 @@
     {
       "Area": "Observability",
       "Cases": "Visualize",
-      "Research": "<code class='tool'>Statuspage</code>",
+      "Research": "",
       "Trial": "",
-      "Best choice": "<code class='tool'>Grafana</code> <code class='platform'>Dynatrace</code>",
+      "Best choice": "<code class='tool'>Grafana</code> <code class='tool'>Statuspage</code> <code class='platform'>Dynatrace</code>",
       "Hold": "<code class='tool'>Zabbix</code> <code class='tool'>Kibana</code>"
     },
     {
@@ -405,6 +405,6 @@
       "Research": "",
       "Trial": "",
       "Best choice": "<code class='platform'>Ngenix</code>",
-      "Hold": "<code class='platform'>Cloudinary</code>"
+      "Hold": "<code class='platform'>Cloudinary (Fastly)</code>"
     }
 ]
