@@ -233,7 +233,7 @@
     },
     {
       "Area": "API management",
-      "Cases": "Protocols & integration agreements",
+      "Cases": "Internal product integrations",
       "Research": "",
       "Trial": "<code class='lang'>GRPC</code> <code class='lang'>GraphQL</code> <code class='lang'>WebSocket</code> <code class='platform'>NATS</code> <code class='platform'>NATS Streaming</code> <code class='tool'>Kafka Streams / connect</code>",
       "Best choice": "<code class='lang'>REST</code> <code class='lang'>AMPQ (RabbitMQ)</code> <code class='tool'>Kafka</code>",
@@ -244,13 +244,13 @@
       "Cases": "Product to Product integrations",
       "Research": "",
       "Trial": "",
-      "Best choice": "<code class='lang'>REST</code> <code class='tool'>AMPQ (RabbitMQ)</code> <code class='tool'>AMPQ (RabbitMQ)</code>",
-      "Hold": "<code class='tool'>SFTP/FTPS</code> <code class='lang'>GRPC</code> <code class='lang'>GraphQL</code> <code class='tool'>ActiveMQ</code> <code class='lang'>JMS</code>"
+      "Best choice": "<code class='lang'>REST</code> <code class='tool'>AMPQ (RabbitMQ)</code> <code class='tool'>Kafka</code>",
+      "Hold": "<code class='tool'>SFTP / FTPS</code> <code class='lang'>GRPC</code> <code class='lang'>GraphQL</code> <code class='tool'>ActiveMQ</code> <code class='lang'>JMS</code>"
     },
     {
       "Area": "API management",
       "Cases": "Gateways & mediation",
-      "Research": "<code class='tool'>Kong</code> <code class='tool'>Istio</code>",
+      "Research": "<code class='tool'>Istio</code>",
       "Trial": "",
       "Best choice": "<code class='platform'>ApiGee</code>",
       "Hold": "<code class='tool'>Spring Gateway</code> <code class='platform'>Web methods ESB</code> <code class='tool'>Transfile perl</code> <code class='tool'>Spring Zuul</code>"
@@ -269,7 +269,7 @@
       "Research": "",
       "Trial": "",
       "Best choice": "<code class='platform'>Opsgenie</code> <code class='tool'>Statuspage</code>",
-      "Hold": "<code class='tool'>ELK</code> <code class='tool'>Grafana</code>"
+      "Hold": "<code class='tool'>ELK</code> <code class='tool'>Grafana</code> <code class='tool'>Prometheus</code>"
     },
     {
       "Area": "Observability",
@@ -322,8 +322,8 @@
     {
       "Area": "CICD",
       "Cases": "Vulnerabilities Scanning",
-      "Research": "<code class='tool'>Github Vulnerabilities scanner</code>",
-      "Trial": "<code class='tool'>Jfrog Xray</code> <code class='tool'>Checkmarx</code>",
+      "Research": "",
+      "Trial": "<code class='tool'>Jfrog Xray</code> <code class='tool'>Checkmarx</code> <code class='tool'>Github Vulnerabilities scanner</code>",
       "Best choice": "",
       "Hold": ""
     },
@@ -354,7 +354,7 @@
     {
       "Area": "Infrastructure",
       "Cases": "Logging",
-      "Research": "<code class='tool'>Grafana Loki</code>",
+      "Research": "<code class='tool'>Grafana Loki</code> <code class='tool'>Dynatrace</code>",
       "Trial": "",
       "Best choice": "<code class='tool'>Opendistro (ELK/EFK)</code>",
       "Hold": ""
