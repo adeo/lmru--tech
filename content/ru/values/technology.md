@@ -93,7 +93,7 @@ Infrastructure as a Code — Инфраструктура как Код. Мы п
 {{< glossary title="VALET" source="https://landing.google.com/sre/workbook/chapters/slo-engineering-case-studies/" >}}
 Гугловский способ измерения SLO. 
 
-* Volume (traffic) — Обьём трафика — какой обьём бизнес транзакций сервис может обработать?
+* Volume (traffic) — Объём трафика — какой обьём бизнес транзакций сервис может обработать?
 * Availability — Доступность — насколько сервис готов бесперебойно обслуживать посетителей?
 * Latency — Задержка — насколько быстро отвечает сервис?
 * Errors — Ошибки — правильно ли сервис обрабатывает ошибки?
