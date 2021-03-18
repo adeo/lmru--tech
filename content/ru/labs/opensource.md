@@ -1,13 +1,8 @@
 ---
-title: "Open Source"
-linkTitle: "Open Source"
-
+title: "Как приготовить код к open source"
+description: "Короткая инструкция по причёсывания кода."
 simple_list: true
 type: docs
-weight: 27
-menu:
-  main:
-    weight: 27
 ---
 
 Мы активно используем продукты open source, созданные и поддерживаемые энтузиастами со всего мира.

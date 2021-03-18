@@ -1,13 +1,8 @@
 ---
-title: "Open Source"
-linkTitle: "Open Source"
-
+title: "How to prepare your code to Open Source"
+description: "A short tutorial for the code cleaning."
 simple_list: true
 type: docs
-weight: 27
-menu:
-  main:
-    weight: 27
 ---
 
 We actively use open source solutions created and supported by enthusiasts from around the world.
